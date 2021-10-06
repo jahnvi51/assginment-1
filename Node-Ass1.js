@@ -10,15 +10,15 @@ var filename = "";
 var content = "";
 
 var instruction = () => {
-   console.log("\n Enter 1 to create  Directory ..");
-   console.log("\n Enter 2 to remove Directory ..");
-   console.log("\n Enter 3 to write file..");
-   console.log("\n Enter 4 to read file..");
-   console.log("\n Enter 5 to delete a text file..");
-   console.log("\n Enter 6 to Append Data To file..");
-   console.log("\n Enter 7 to Update / Replace file with new data ..");
-   console.log("\n Enter 8 to Rename a text file..");
-   console.log("\n Enter 9 to exit");
+   console.log("\n enter 1 to create the  Directory ..");
+   console.log("\n enter 2 to remove the Directory ..");
+   console.log("\n enter 3 to write the file..");
+   console.log("\n enter 4 to read the file..");
+   console.log("\n enter 5 to delete the  text file..");
+   console.log("\n enter 6 to Append Data the to file..");
+   console.log("\n enter 7 to update and replace   the file with new data  entered..");
+   console.log("\n enter 8 to Rename a text file..");
+   console.log("\n enter 9 to exit");
 };
 
 var start = () => {
@@ -48,7 +48,7 @@ var start = () => {
       renameFileWizard();
     }
     else if(answer === "9"){
-      rl.close()
+      jl.close()
     }
   });
 };
